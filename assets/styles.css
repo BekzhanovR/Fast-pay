@@ -104,3 +104,42 @@ body{
 .btns button p{
     font-weight: 600;
 }
+
+.payment{
+    width: 350px;
+}
+
+.price{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #fff;
+}
+
+select, input, button{
+    cursor: pointer;
+    padding: 7px 11px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #303030;
+    background-color: #151515;
+    color: #fff;
+}
+
+input{
+    display: none;
+}
+
+input.active{
+    display: block;
+}
+
+input::placeholder{
+    color: #303030;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(49, 49, 234);
+}
