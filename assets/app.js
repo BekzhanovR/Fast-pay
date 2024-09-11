@@ -24,6 +24,6 @@ payButton.addEventListener('click', function() {
         amount = selectedOption.value;
     }
 
-    const ussdCode = `*880*3*5614682205451612*${amount}`
-    window.location.href = "tel:" + ussdCode
+    const ussdCode = `tel:*880*3*5614682205451612*${amount}`
+    window.location.href = ussdCode
 });
